@@ -3,6 +3,8 @@
 <head>
   
 <link type="text/css" rel="stylesheet" href="css/bootstrap.css"/>
+<script src="js/jquery-1.12.2.min.js"></script>
+<script src="js/bootstrap.js"></script>
 <style>
   .container {
     background-color:lightgray;
@@ -19,7 +21,19 @@
 <div class="container">
   <h1>Bootstrap Practice</h1>
   <p>Time for another mini project. Have a cup of coffee and let's continue...</p>
-  <img src="images/coffee.gif" class="img-rounded"/>
+  <img src="images/coffee.gif" class="img-rounded img-responsive"/>
+ 
+  <p><div class="dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
+      Bootstrap Dependencies 
+      <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu">
+      <li><a href="#">Bootstrap CSS file</a></li>
+      <li><a href="#">Bootstrap JS file</a></li>
+      <li><a href="#">Needs JQuery!</a></li>
+    </ul>
+  </div></p>
 </div>
    
 </body>
